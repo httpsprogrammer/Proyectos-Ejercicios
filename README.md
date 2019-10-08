@@ -1,1 +1,1 @@
-# Proyectos-Pr-cticas
+# Proyectos-Ejercicios
