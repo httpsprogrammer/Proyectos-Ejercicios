@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImportarExcel", "ImportarExcel\ImportarExcel.csproj", "{FAF8F880-A8C3-4A25-B52E-A8068199715C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarExtrayendoRuta", "ImportarExtrayendoRuta\ImportarExtrayendoRuta.csproj", "{54C3DA12-A740-4E9F-988B-B1FA4B9B905B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF8F880-A8C3-4A25-B52E-A8068199715C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF8F880-A8C3-4A25-B52E-A8068199715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF8F880-A8C3-4A25-B52E-A8068199715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF8F880-A8C3-4A25-B52E-A8068199715C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C3DA12-A740-4E9F-988B-B1FA4B9B905B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C3DA12-A740-4E9F-988B-B1FA4B9B905B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C3DA12-A740-4E9F-988B-B1FA4B9B905B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C3DA12-A740-4E9F-988B-B1FA4B9B905B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {245638D5-A351-4388-8E8E-6F6F7B50ECFA}
+	EndGlobalSection
+EndGlobal

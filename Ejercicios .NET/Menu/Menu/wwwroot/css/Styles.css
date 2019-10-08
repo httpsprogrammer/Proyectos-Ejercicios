@@ -1,0 +1,59 @@
+﻿body {
+}
+
+#navmax {
+    width: 560px;
+    margin: 0 auto;
+
+}
+
+    #navmax ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        border-radius: 57px 61px 60px 60px;
+        -moz-border-radius: 57px 61px 60px 60px;
+        -webkit-border-radius: 57px 61px 60px 60px;
+        border: 2px solid #dbc328;
+        background-color: #ff7300;
+    }
+
+        #navmax ul li {
+            text-align: center;
+            display: inline-block;
+            width: 140px;
+            margin-left: -4px;
+            vertical-align: top;
+        }
+
+    #navmax li a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 20px;
+        line-height: 35px;
+        color: white;
+        font-family: 'Architects Daughter', cursive;
+        transition: all 0.5s ease-in-out;
+    }
+
+        #navmax li a:hover {
+            color: black;
+            transition: all 0.5s ease-in-out;
+        }
+
+    #navmax li ul {
+        display: none;
+        width: 140px;
+        margin: auto;
+    }
+
+    #navmax li:hover ul {
+        display: block;
+    }
+
+        #navmax li:hover ul li {
+            display: inline-block;
+        }
