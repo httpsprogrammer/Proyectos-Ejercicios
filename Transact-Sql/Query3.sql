@@ -15,13 +15,13 @@ create table dbo.Curso
 	NumeroEstudiantes INT null
 );
 
-/*Modifico la tabla añadiendo una nueva columna*/
+/*Modifico la tabla aÃ±adiendo una nueva columna*/
 ALTER TABLE dbo.Estudiante ADD 
 IdCurso INT NULL 
 
 
-/*Realizando relación entre las tablas*/
-/*Modifico la tabla para añadirle un campo*/
+/*Realizando relaciÃ³n entre las tablas*/
+/*Modifico la tabla aÃ±adiendo una una clave foranea y que se relacione con la tabla Curso*/
 ALTER TABLE dbo.Estudiante ADD CONSTRAINT FK_Estudiante_Curso
 FOREIGN KEY(IdCurso) REFERENCES Curso(IdCurso)
 GO
